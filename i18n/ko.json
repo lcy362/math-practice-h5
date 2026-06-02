@@ -29,7 +29,9 @@
     "correct": "정답!",
     "wrong": "오답! 정답은: {answer}",
     "selectAnswer": "답을 선택하세요",
-    "paramError": "매개변수 로드 실패"
+    "paramError": "매개변수 로드 실패",
+    "totalAttempts": "총 문제 수",
+    "wrongAttempts": "오답 수"
   },
   "about": {
     "title": "사이트 소개",

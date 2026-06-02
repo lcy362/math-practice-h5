@@ -4,7 +4,7 @@ import type { PracticeParams } from '~/composables/usePractice'
 const { t } = useI18n()
 const localePath = useLocalePath()
 const router = useRouter()
-const { num1, num2, currentOperator, userAnswer, isCorrect, showFeedback, feedbackMessage, generateProblem, checkAnswer, getCorrectAnswer } = usePractice()
+const { num1, num2, currentOperator, userAnswer, isCorrect, showFeedback, feedbackMessage, totalAttempts, wrongAttempts, generateProblem, checkAnswer, getCorrectAnswer, resetStats } = usePractice()
 const gtag = useGtag()
 
 const params = ref<PracticeParams | null>(null)
@@ -118,6 +118,13 @@ function goBack() {
           {{ feedbackMessage }}
         </div>
       </Transition>
+
+      <!-- Stats -->
+      <div v-if="totalAttempts > 0" class="stats">
+        <span>{{ t('practice.totalAttempts') }}: {{ totalAttempts }}</span>
+        <span class="divider">|</span>
+        <span>{{ t('practice.wrongAttempts') }}: {{ wrongAttempts }}</span>
+      </div>
     </div>
   </div>
 </template>
@@ -286,5 +293,18 @@ function goBack() {
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+
+.stats {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+  color: #888;
+
+  .divider {
+    margin: 0 8px;
+    color: #ddd;
+  }
 }
 </style>

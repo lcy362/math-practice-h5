@@ -29,7 +29,9 @@
     "correct": "正解！",
     "wrong": "不正解！正解は：{answer}",
     "selectAnswer": "答えを選択してください",
-    "paramError": "パラメータの読み込みに失敗しました"
+    "paramError": "パラメータの読み込みに失敗しました",
+    "totalAttempts": "合計回答数",
+    "wrongAttempts": "不正解数"
   },
   "about": {
     "title": "サイトについて",

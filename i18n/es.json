@@ -29,7 +29,9 @@
     "correct": "¡Correcto!",
     "wrong": "¡Incorrecto! La respuesta correcta es: {answer}",
     "selectAnswer": "Por favor selecciona una respuesta",
-    "paramError": "Error al cargar parámetros"
+    "paramError": "Error al cargar parámetros",
+    "totalAttempts": "Total",
+    "wrongAttempts": "Incorrectas"
   },
   "about": {
     "title": "Sobre Nosotros",

@@ -29,7 +29,9 @@
     "correct": "Correct!",
     "wrong": "Wrong! The correct answer is: {answer}",
     "selectAnswer": "Please select an answer",
-    "paramError": "Failed to load parameters"
+    "paramError": "Failed to load parameters",
+    "totalAttempts": "Total",
+    "wrongAttempts": "Wrong"
   },
   "about": {
     "title": "About Us",

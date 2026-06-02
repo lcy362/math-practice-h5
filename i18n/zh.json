@@ -29,7 +29,9 @@
     "correct": "回答正确！",
     "wrong": "回答错误，正确答案是：{answer}",
     "selectAnswer": "请选择一个答案",
-    "paramError": "参数加载失败"
+    "paramError": "参数加载失败",
+    "totalAttempts": "总答题数",
+    "wrongAttempts": "答错次数"
   },
   "about": {
     "title": "关于我们",

@@ -14,6 +14,8 @@ export function usePractice() {
   const isCorrect = ref(false)
   const showFeedback = ref(false)
   const feedbackMessage = ref('')
+  const totalAttempts = ref(0)
+  const wrongAttempts = ref(0)
 
   function generateProblem(params: PracticeParams) {
     userAnswer.value = ''
@@ -62,7 +64,14 @@ export function usePractice() {
 
     feedbackMessage.value = isCorrect.value ? correctMsg : wrongMsg
     showFeedback.value = true
+    totalAttempts.value++
+    if (!isCorrect.value) wrongAttempts.value++
     return isCorrect.value
+  }
+
+  function resetStats() {
+    totalAttempts.value = 0
+    wrongAttempts.value = 0
   }
 
   return {
@@ -73,8 +82,11 @@ export function usePractice() {
     isCorrect,
     showFeedback,
     feedbackMessage,
+    totalAttempts,
+    wrongAttempts,
     generateProblem,
     checkAnswer,
     getCorrectAnswer,
+    resetStats,
   }
 }
