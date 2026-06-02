@@ -51,12 +51,10 @@ export default defineNuxtConfig({
     allow: '/',
   },
 
-  // Sitemap
+  // Sitemap - single file, no index
   sitemap: {
     autoLastmod: true,
-    sitemapName: 'sitemap.xml',
-    // Merge all locale sitemaps into one file
-    defaultSitemapsChunkSize: 1000,
+    sitemaps: false,
   },
 
   // OG Image - disabled (we use static og-image.png)
