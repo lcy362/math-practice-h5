@@ -75,6 +75,7 @@ export default defineNuxtConfig({
       ],
       meta: [
         { name: 'theme-color', content: '#4a90e2' },
+        { name: 'google-site-verification', content: 'AUXjM9SH3SycuX49Qv1r0UQfa5AwvIE-4q27LUEf5aU' },
       ],
       script: [
         { async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7310841175510611', crossorigin: 'anonymous' },
