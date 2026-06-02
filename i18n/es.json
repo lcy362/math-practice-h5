@@ -1,0 +1,39 @@
+{
+  "site": {
+    "title": "Práctica de Matemáticas",
+    "description": "Herramienta gratuita de práctica matemática en línea. Practica suma, resta, multiplicación, división y comparación. Ideal para estudiantes de primaria. Mejora tu cálculo mental en cualquier momento y lugar.",
+    "keywords": "práctica matemáticas,aritmética,matemáticas primaria,suma resta multiplicación división,práctica en línea,cálculo mental"
+  },
+  "home": {
+    "title": "Práctica de Matemáticas",
+    "subtitle": "Elige los parámetros de práctica y comienza tu viaje matemático",
+    "numberRange": "Rango de números",
+    "minValue": "Mín",
+    "maxValue": "Máx",
+    "to": "a",
+    "selectOperators": "Seleccionar operaciones",
+    "addition": "Suma",
+    "subtraction": "Resta",
+    "multiplication": "Multiplicación",
+    "division": "División",
+    "comparison": "Comparación",
+    "startPractice": "Comenzar práctica",
+    "errorMaxGtMin": "El máximo debe ser mayor que el mínimo",
+    "errorSelectOperator": "Selecciona al menos una operación"
+  },
+  "practice": {
+    "title": "Práctica de Matemáticas",
+    "inputAnswer": "Ingresa tu respuesta",
+    "submit": "Enviar",
+    "backHome": "Volver al inicio",
+    "correct": "¡Correcto!",
+    "wrong": "¡Incorrecto! La respuesta correcta es: {answer}",
+    "selectAnswer": "Por favor selecciona una respuesta",
+    "paramError": "Error al cargar parámetros"
+  },
+  "footer": {
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "copyright": "© 2025 Práctica de Matemáticas. All rights reserved."
+  }
+}

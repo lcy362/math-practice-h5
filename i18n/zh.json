@@ -1,0 +1,39 @@
+{
+  "site": {
+    "title": "极简算数练习",
+    "description": "免费在线数学练习工具，支持加减乘除和比较大小，适合小学生使用。随时随地练习心算，提升数学能力。",
+    "keywords": "数学练习,算数,小学数学,加减乘除,在线练习,心算训练"
+  },
+  "home": {
+    "title": "极简算数练习",
+    "subtitle": "选择练习参数，开始你的数学之旅",
+    "numberRange": "数字范围",
+    "minValue": "最小值",
+    "maxValue": "最大值",
+    "to": "至",
+    "selectOperators": "选择运算符",
+    "addition": "加法",
+    "subtraction": "减法",
+    "multiplication": "乘法",
+    "division": "除法",
+    "comparison": "比较大小",
+    "startPractice": "开始练习",
+    "errorMaxGtMin": "最大值必须大于最小值",
+    "errorSelectOperator": "请至少选择一个运算符"
+  },
+  "practice": {
+    "title": "数学练习",
+    "inputAnswer": "输入答案",
+    "submit": "提交",
+    "backHome": "返回主页",
+    "correct": "回答正确！",
+    "wrong": "回答错误，正确答案是：{answer}",
+    "selectAnswer": "请选择一个答案",
+    "paramError": "参数加载失败"
+  },
+  "footer": {
+    "about": "关于",
+    "privacy": "隐私政策",
+    "copyright": "© 2025 极简算数练习. All rights reserved."
+  }
+}

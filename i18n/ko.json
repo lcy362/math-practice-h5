@@ -1,0 +1,39 @@
+{
+  "site": {
+    "title": "수학 연습",
+    "description": "무료 온라인 수학 연습 도구. 덧셈, 뺄셈, 곱셈, 나눗셈, 비교 연습 가능. 초등학생에게 적합합니다. 언제 어디서나 암산을 연습하고 수학 실력을 향상시키세요.",
+    "keywords": "수학 연습,산술,초등 수학,덧셈 뺄셈 곱셈 나눗셈,온라인 연습,암산 훈련"
+  },
+  "home": {
+    "title": "수학 연습",
+    "subtitle": "연습 매개변수를 선택하고 수학 여행을 시작하세요",
+    "numberRange": "숫자 범위",
+    "minValue": "최솟값",
+    "maxValue": "최댓값",
+    "to": "~",
+    "selectOperators": "연산 선택",
+    "addition": "덧셈",
+    "subtraction": "뺄셈",
+    "multiplication": "곱셈",
+    "division": "나눗셈",
+    "comparison": "비교",
+    "startPractice": "연습 시작",
+    "errorMaxGtMin": "최댓값은 최솟값보다 커야 합니다",
+    "errorSelectOperator": "하나 이상의 연산을 선택하세요"
+  },
+  "practice": {
+    "title": "수학 연습",
+    "inputAnswer": "답 입력",
+    "submit": "제출",
+    "backHome": "홈으로 돌아가기",
+    "correct": "정답!",
+    "wrong": "오답! 정답은: {answer}",
+    "selectAnswer": "답을 선택하세요",
+    "paramError": "매개변수 로드 실패"
+  },
+  "footer": {
+    "about": "소개",
+    "privacy": "개인정보 처리방침",
+    "copyright": "© 2025 수학 연습. All rights reserved."
+  }
+}

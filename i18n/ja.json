@@ -1,0 +1,39 @@
+{
+  "site": {
+    "title": "算数練習",
+    "description": "無料のオンライン算数練習ツール。足し算、引き算、掛け算、割り算、比較に対応。小学生に最適。随时随地で暗算を練習し、数学力を向上させましょう。",
+    "keywords": "算数練習,計算,小学算数,足し算引き算掛け算割り算,オンライン練習,暗算トレーニング"
+  },
+  "home": {
+    "title": "算数練習",
+    "subtitle": "練習パラメータを選択して、算数の旅を始めましょう",
+    "numberRange": "数値範囲",
+    "minValue": "最小値",
+    "maxValue": "最大値",
+    "to": "〜",
+    "selectOperators": "演算子を選択",
+    "addition": "足し算",
+    "subtraction": "引き算",
+    "multiplication": "掛け算",
+    "division": "割り算",
+    "comparison": "比較",
+    "startPractice": "練習開始",
+    "errorMaxGtMin": "最大値は最小値より大きくなければなりません",
+    "errorSelectOperator": "少なくとも1つの演算子を選択してください"
+  },
+  "practice": {
+    "title": "算数練習",
+    "inputAnswer": "答えを入力",
+    "submit": "送信",
+    "backHome": "ホームに戻る",
+    "correct": "正解！",
+    "wrong": "不正解！正解は：{answer}",
+    "selectAnswer": "答えを選択してください",
+    "paramError": "パラメータの読み込みに失敗しました"
+  },
+  "footer": {
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "copyright": "© 2025 算数練習. All rights reserved."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "site": {
+    "title": "Math Practice",
+    "description": "Free online math practice tool for kids. Practice addition, subtraction, multiplication, division and comparison. Improve mental math skills anytime, anywhere.",
+    "keywords": "math practice,arithmetic,elementary math,addition subtraction multiplication division,online practice,mental math"
+  },
+  "home": {
+    "title": "Math Practice",
+    "subtitle": "Choose your practice settings and start your math journey",
+    "numberRange": "Number Range",
+    "minValue": "Min",
+    "maxValue": "Max",
+    "to": "to",
+    "selectOperators": "Select Operations",
+    "addition": "Addition",
+    "subtraction": "Subtraction",
+    "multiplication": "Multiplication",
+    "division": "Division",
+    "comparison": "Comparison",
+    "startPractice": "Start Practice",
+    "errorMaxGtMin": "Maximum must be greater than minimum",
+    "errorSelectOperator": "Please select at least one operation"
+  },
+  "practice": {
+    "title": "Math Practice",
+    "inputAnswer": "Enter your answer",
+    "submit": "Submit",
+    "backHome": "Back to Home",
+    "correct": "Correct!",
+    "wrong": "Wrong! The correct answer is: {answer}",
+    "selectAnswer": "Please select an answer",
+    "paramError": "Failed to load parameters"
+  },
+  "footer": {
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2025 Math Practice. All rights reserved."
+  }
+}
