@@ -77,8 +77,7 @@ export default defineNuxtConfig({
         { name: 'theme-color', content: '#4a90e2' },
       ],
       script: [
-        // Google AdSense - TODO: uncomment and replace with real client ID
-        // { async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX', crossorigin: 'anonymous' },
+        { async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7310841175510611', crossorigin: 'anonymous' },
       ],
     },
   },
