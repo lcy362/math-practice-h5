@@ -17,6 +17,19 @@ const localePath = useLocalePath()
         <span class="sep">·</span>
         <a href="https://lichuanyang.top/" target="_blank" rel="noopener">{{ t('footer.mainSite') }}</a>
       </nav>
+      <nav class="footer-links">
+        <NuxtLink :to="localePath('/multiplication-table')">{{ t('footer.multiplicationTable') }}</NuxtLink>
+        <span class="sep">·</span>
+        <NuxtLink :to="localePath('/formulas')">{{ t('footer.formulas') }}</NuxtLink>
+        <span class="sep">·</span>
+        <NuxtLink :to="localePath('/daily')">{{ t('footer.daily') }}</NuxtLink>
+        <span class="sep">·</span>
+        <NuxtLink :to="localePath('/glossary')">{{ t('footer.glossary') }}</NuxtLink>
+        <span class="sep">·</span>
+        <NuxtLink :to="localePath('/printable')">{{ t('footer.printable') }}</NuxtLink>
+        <span class="sep">·</span>
+        <NuxtLink :to="localePath('/guide')">{{ t('footer.guide') }}</NuxtLink>
+      </nav>
       <p class="copyright">{{ t('footer.copyright') }}</p>
     </div>
   </footer>

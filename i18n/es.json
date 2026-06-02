@@ -102,6 +102,134 @@
     "tips": "Consejos",
     "privacy": "Política de Privacidad",
     "mainSite": "Página del Desarrollador",
-    "copyright": "© 2025 Práctica de Matemáticas. All rights reserved."
+    "copyright": "© 2025 Práctica de Matemáticas. All rights reserved.",
+    "multiplicationTable": "Tablas de Multiplicar",
+    "formulas": "Fórmulas Matemáticas",
+    "daily": "Reto Diario",
+    "glossary": "Glosario Matemático",
+    "printable": "Hojas Imprimibles",
+    "guide": "Guía para Padres"
+  },
+  "multiplicationTable": {
+    "title": "Tablas de Multiplicar",
+    "description": "Tablas de multiplicar interactivas. Pasa el cursor para resaltar filas y columnas y ayudar a memorizar las tablas.",
+    "intro": "Pasa el cursor sobre una celda para resaltar su fila y columna, facilitando ver las relaciones de multiplicación."
+  },
+  "formulas": {
+    "title": "Fórmulas Matemáticas",
+    "description": "Fórmulas matemáticas comunes de primaria incluyendo reglas aritméticas y propiedades de comparación.",
+    "intro": "Una recopilación de fórmulas matemáticas y reglas aritméticas comúnmente usadas en primaria.",
+    "additionSubtraction": "Suma y Resta",
+    "multiplicationDivision": "Multiplicación y División",
+    "comparison": "Comparación",
+    "commutative": "Propiedad Conmutativa de la Suma",
+    "associativeAdd": "Propiedad Asociativa de la Suma",
+    "identityAdd": "Propiedad Identidad de la Suma",
+    "subtractionDef": "Definición de Resta",
+    "identitySub": "Propiedad Identidad de la Resta",
+    "selfSub": "Resta de sí mismo",
+    "commutativeMul": "Propiedad Conmutativa de la Multiplicación",
+    "associativeMul": "Propiedad Asociativa de la Multiplicación",
+    "distributive": "Propiedad Distributiva",
+    "identityMul": "Propiedad Identidad de la Multiplicación",
+    "zeroMul": "Multiplicación por Cero",
+    "divisionDef": "Definición de División",
+    "reflexive": "Propiedad Reflexiva",
+    "symmetric": "Propiedad Simétrica",
+    "transitive": "Propiedad Transitiva",
+    "additionInequality": "Propiedad de Adición en Desigualdades",
+    "example": "Ejemplo"
+  },
+  "daily": {
+    "title": "Reto Diario",
+    "description": "Un problema de matemáticas diario para practicar y mejorar tu cálculo mental. ¡Un problema nuevo cada día!",
+    "showHint": "Pista",
+    "tryAgain": "Intentar de nuevo",
+    "hintAdd": "Intenta separar los números en decenas y unidades, sumar cada uno por separado y luego combinar.",
+    "hintSub": "Puedes restar las decenas primero, luego las unidades.",
+    "hintMul": "La multiplicación es suma repetida. Intenta separar un número en partes.",
+    "hintDiv": "La división es la inversa de la multiplicación. ¿Qué número multiplicado por el divisor da el dividendo?"
+  },
+  "glossary": {
+    "title": "Glosario Matemático",
+    "description": "Términos matemáticos de primaria con definiciones para ayudar a los niños a entender el vocabulario matemático.",
+    "intro": "Una recopilación de términos matemáticos comunes usados en primaria. Usa la búsqueda para encontrar términos específicos.",
+    "searchPlaceholder": "Buscar términos matemáticos...",
+    "noResults": "No se encontraron términos coincidentes",
+    "terms": {
+      "addend": { "term": "Sumando (Addend)", "definition": "Un número que se suma en una operación de suma. En 3 + 5 = 8, tanto 3 como 5 son sumandos." },
+      "difference": { "term": "Diferencia (Difference)", "definition": "El resultado de una operación de resta. En 8 - 3 = 5, la diferencia es 5." },
+      "dividend": { "term": "Dividendo (Dividend)", "definition": "El número que se divide en una operación de división. En 12 ÷ 3 = 4, el dividendo es 12." },
+      "divisor": { "term": "Divisor (Divisor)", "definition": "El número por el cual se divide otro. En 12 ÷ 3 = 4, el divisor es 3." },
+      "equal": { "term": "Igual (=)", "definition": "Un símbolo que indica que dos valores son iguales." },
+      "equation": { "term": "Ecuación (Equation)", "definition": "Una expresión matemática con signo igual que muestra que dos expresiones tienen el mismo valor. Ejemplo: 2 + 3 = 5." },
+      "factor": { "term": "Factor (Factor)", "definition": "Un número que se multiplica en una operación de multiplicación. En 3 × 4 = 12, tanto 3 como 4 son factores." },
+      "greaterThan": { "term": "Mayor que (>)", "definition": "Indica que el número de la izquierda es mayor que el de la derecha. Ejemplo: 5 > 3." },
+      "lessThan": { "term": "Menor que (<)", "definition": "Indica que el número de la izquierda es menor que el de la derecha. Ejemplo: 3 < 5." },
+      "minuend": { "term": "Minuendo (Minuend)", "definition": "El número del cual se resta en una operación de resta. En 8 - 3 = 5, el minuendo es 8." },
+      "multiplicand": { "term": "Multiplicando (Multiplicand)", "definition": "El número que se multiplica en una operación de multiplicación. En 3 × 4 = 12, el multiplicando es 3." },
+      "multiplier": { "term": "Multiplicador (Multiplier)", "definition": "El número por el cual se multiplica en una operación de multiplicación. En 3 × 4 = 12, el multiplicador es 4." },
+      "numberLine": { "term": "Recta Numérica (Number Line)", "definition": "Una línea recta con números marcados, usada para mostrar el tamaño y orden de los números." },
+      "product": { "term": "Producto (Product)", "definition": "El resultado de una operación de multiplicación. En 3 × 4 = 12, el producto es 12." },
+      "quotient": { "term": "Cociente (Quotient)", "definition": "El resultado de una operación de división. En 12 ÷ 3 = 4, el cociente es 4." },
+      "remainder": { "term": "Resto (Remainder)", "definition": "La cantidad que sobra después de una división cuando los números no se dividen exactamente. Ejemplo: 10 ÷ 3 = 3 resto 1." },
+      "subtrahend": { "term": "Sustraendo (Subtrahend)", "definition": "El número que se resta en una operación de resta. En 8 - 3 = 5, el sustraendo es 3." },
+      "sum": { "term": "Suma (Sum)", "definition": "El resultado de una operación de suma. En 3 + 5 = 8, la suma es 8." }
+    }
+  },
+  "printable": {
+    "title": "Hojas de Ejercicios Imprimibles",
+    "description": "Genera hojas de ejercicios de matemáticas imprimibles con rango de números, operaciones y cantidad de problemas personalizables.",
+    "intro": "Configura los parámetros de práctica y genera hojas de ejercicios para imprimir.",
+    "problemCount": "Cantidad de Problemas",
+    "columns": "Columnas por Fila",
+    "generate": "Generar Hoja",
+    "worksheetTitle": "Hoja de Ejercicios de Matemáticas",
+    "name": "Nombre",
+    "date": "Fecha",
+    "score": "Puntuación",
+    "print": "Imprimir"
+  },
+  "guide": {
+    "title": "Guía para Padres",
+    "description": "Consejos y sugerencias para padres sobre cómo ayudar a los niños a aprender matemáticas de manera efectiva.",
+    "intro": "El aprendizaje de matemáticas no es solo cosa de la escuela: la participación y guía de los padres es equally importante. Aquí tienes algunos consejos para apoyar a tu hijo.",
+    "creatingEnvironment": {
+      "title": "Creando un Ambiente de Aprendizaje",
+      "item1": "Prepara un espacio de estudio tranquilo y organizado para tu hijo con mínimas distractions.",
+      "item2": "Coloca libros y tarjetas relacionadas con matemáticas en casa para easy access.",
+      "item3": "Mantén una actitud positiva y evita mostrar anxiety sobre matemáticas frente a tu hijo."
+    },
+    "effectivePractice": {
+      "title": "Métodos de Práctica Efectiva",
+      "item1": "10-15 minutos de práctica diaria es más efectivo que sesiones largas ocasionales.",
+      "item2": "Empieza simple y aumenta gradualmente la dificultad para crear confianza.",
+      "item3": "Anima a tu hijo a explicar su thinking process, no solo la respuesta.",
+      "item4": "Usa la función de Reto Diario para crear un daily practice habit."
+    },
+    "handlingMistakes": {
+      "title": "Manejando los Errores",
+      "item1": "Los errores son parte del aprendizaje — no regañes a tu hijo por equivocarse.",
+      "item2": "Guía a tu hijo a analizar por qué se equivocó y learn from it.",
+      "item3": "Usa la función de cuaderno de errores para repasar regularmente los challenging problems."
+    },
+    "motivation": {
+      "title": "Motivación y Aliento",
+      "item1": "Concéntrate en el progress de tu hijo en lugar de comparar con otros.",
+      "item2": "Establece small goals y da appropriate rewards y elogios cuando los logre.",
+      "item3": "Haz que las matemáticas sean divertidas con juegos, stories y otras engaging activities."
+    },
+    "ageAppropriate": {
+      "title": "Sugerencias por Edad",
+      "item1": "Preescolar (4-6 años): Enfócate en suma y resta dentro del 1-10 para desarrollar el sentido numérico.",
+      "item2": "Grados inferiores (1-3): Domina suma y resta dentro del 20, comienza a aprender las tablas de multiplicar.",
+      "item3": "Grados superiores (4-6): Consolida las cuatro operaciones, comienza a explorar fracciones y decimales."
+    },
+    "dailyLife": {
+      "title": "Matemáticas en la Vida Diaria",
+      "item1": "Deja que tu hijo calcule precios y cambio mientras compras para practicar real-world math.",
+      "item2": "Involucra a tu hijo en medir ingredientes mientras cocinas para entender fracciones y proporciones.",
+      "item3": "Pide a tu hijo que lea letreros y calcule distancias durante salidas para desarrollar el sentido numérico."
+    }
   }
 }

@@ -102,6 +102,134 @@
     "tips": "Learning Tips",
     "privacy": "Privacy Policy",
     "mainSite": "Developer Homepage",
-    "copyright": "© 2025 Math Practice. All rights reserved."
+    "copyright": "© 2025 Math Practice. All rights reserved.",
+    "multiplicationTable": "Multiplication Table",
+    "formulas": "Math Formulas",
+    "daily": "Daily Challenge",
+    "glossary": "Math Glossary",
+    "printable": "Printable Worksheets",
+    "guide": "Parent Guide"
+  },
+  "multiplicationTable": {
+    "title": "Multiplication Table",
+    "description": "Interactive multiplication table. Hover to highlight rows and columns to help memorize multiplication facts.",
+    "intro": "Hover over a cell to highlight its row and column, making it easy to see multiplication relationships."
+  },
+  "formulas": {
+    "title": "Math Formulas",
+    "description": "Common elementary math formulas including arithmetic rules and comparison properties.",
+    "intro": "A collection of commonly used math formulas and arithmetic rules for elementary school students.",
+    "additionSubtraction": "Addition & Subtraction",
+    "multiplicationDivision": "Multiplication & Division",
+    "comparison": "Comparison",
+    "commutative": "Commutative Property of Addition",
+    "associativeAdd": "Associative Property of Addition",
+    "identityAdd": "Identity Property of Addition",
+    "subtractionDef": "Definition of Subtraction",
+    "identitySub": "Identity Property of Subtraction",
+    "selfSub": "Self-Subtraction",
+    "commutativeMul": "Commutative Property of Multiplication",
+    "associativeMul": "Associative Property of Multiplication",
+    "distributive": "Distributive Property",
+    "identityMul": "Identity Property of Multiplication",
+    "zeroMul": "Multiplication by Zero",
+    "divisionDef": "Definition of Division",
+    "reflexive": "Reflexive Property",
+    "symmetric": "Symmetric Property",
+    "transitive": "Transitive Property",
+    "additionInequality": "Addition Property of Inequality",
+    "example": "Example"
+  },
+  "daily": {
+    "title": "Daily Challenge",
+    "description": "A daily math challenge problem to practice and improve your mental math skills. A new problem every day!",
+    "showHint": "Hint",
+    "tryAgain": "Try Again",
+    "hintAdd": "Try breaking the numbers into tens and ones, add them separately, then combine.",
+    "hintSub": "You can subtract the tens first, then the ones.",
+    "hintMul": "Multiplication is repeated addition. Try breaking one number into parts.",
+    "hintDiv": "Division is the inverse of multiplication. What number times the divisor equals the dividend?"
+  },
+  "glossary": {
+    "title": "Math Glossary",
+    "description": "Elementary math terms with definitions to help children understand mathematical vocabulary.",
+    "intro": "A collection of common math terms used in elementary school. Use the search to find specific terms.",
+    "searchPlaceholder": "Search math terms...",
+    "noResults": "No matching terms found",
+    "terms": {
+      "addend": { "term": "Addend", "definition": "A number being added in an addition operation. In 3 + 5 = 8, both 3 and 5 are addends." },
+      "difference": { "term": "Difference", "definition": "The result of a subtraction operation. In 8 - 3 = 5, the difference is 5." },
+      "dividend": { "term": "Dividend", "definition": "The number being divided in a division operation. In 12 ÷ 3 = 4, the dividend is 12." },
+      "divisor": { "term": "Divisor", "definition": "The number by which another number is divided. In 12 ÷ 3 = 4, the divisor is 3." },
+      "equal": { "term": "Equal (=)", "definition": "A symbol showing that two values are the same." },
+      "equation": { "term": "Equation", "definition": "A mathematical statement with an equal sign showing two expressions have the same value. Example: 2 + 3 = 5." },
+      "factor": { "term": "Factor", "definition": "A number being multiplied in a multiplication operation. In 3 × 4 = 12, both 3 and 4 are factors." },
+      "greaterThan": { "term": "Greater Than (>)", "definition": "Shows that the number on the left is larger than the number on the right. Example: 5 > 3." },
+      "lessThan": { "term": "Less Than (<)", "definition": "Shows that the number on the left is smaller than the number on the right. Example: 3 < 5." },
+      "minuend": { "term": "Minuend", "definition": "The number from which another number is subtracted. In 8 - 3 = 5, the minuend is 8." },
+      "multiplicand": { "term": "Multiplicand", "definition": "The number being multiplied in a multiplication operation. In 3 × 4 = 12, the multiplicand is 3." },
+      "multiplier": { "term": "Multiplier", "definition": "The number by which another number is multiplied. In 3 × 4 = 12, the multiplier is 4." },
+      "numberLine": { "term": "Number Line", "definition": "A straight line with numbers marked on it, used to show the size and order of numbers." },
+      "product": { "term": "Product", "definition": "The result of a multiplication operation. In 3 × 4 = 12, the product is 12." },
+      "quotient": { "term": "Quotient", "definition": "The result of a division operation. In 12 ÷ 3 = 4, the quotient is 4." },
+      "remainder": { "term": "Remainder", "definition": "The amount left over after division when numbers don't divide evenly. Example: 10 ÷ 3 = 3 remainder 1." },
+      "subtrahend": { "term": "Subtrahend", "definition": "The number being subtracted in a subtraction operation. In 8 - 3 = 5, the subtrahend is 3." },
+      "sum": { "term": "Sum", "definition": "The result of an addition operation. In 3 + 5 = 8, the sum is 8." }
+    }
+  },
+  "printable": {
+    "title": "Printable Worksheets",
+    "description": "Generate printable math practice worksheets with customizable number range, operations, and problem count.",
+    "intro": "Configure your practice parameters and generate worksheets for printing.",
+    "problemCount": "Number of Problems",
+    "columns": "Columns per Row",
+    "generate": "Generate Worksheet",
+    "worksheetTitle": "Math Practice Worksheet",
+    "name": "Name",
+    "date": "Date",
+    "score": "Score",
+    "print": "Print"
+  },
+  "guide": {
+    "title": "Parent's Guide",
+    "description": "Tips and advice for parents on helping children learn math effectively.",
+    "intro": "Math learning isn't just about school — parental involvement and guidance are equally important. Here are some tips to help you support your child.",
+    "creatingEnvironment": {
+      "title": "Creating a Learning Environment",
+      "item1": "Prepare a quiet, organized study space for your child with minimal distractions.",
+      "item2": "Place math-related books and cards around the home for easy access.",
+      "item3": "Maintain a positive attitude and avoid showing anxiety about math in front of your child."
+    },
+    "effectivePractice": {
+      "title": "Effective Practice Methods",
+      "item1": "10-15 minutes of daily practice is more effective than occasional long sessions.",
+      "item2": "Start simple and gradually increase difficulty to build confidence.",
+      "item3": "Encourage your child to explain their thinking process, not just the answer.",
+      "item4": "Use the Daily Challenge feature to build a daily practice habit."
+    },
+    "handlingMistakes": {
+      "title": "Handling Mistakes",
+      "item1": "Mistakes are part of learning — don't scold your child for getting answers wrong.",
+      "item2": "Guide your child to analyze why they made the mistake and learn from it.",
+      "item3": "Use the wrong answer book feature to regularly review challenging problems."
+    },
+    "motivation": {
+      "title": "Motivation & Encouragement",
+      "item1": "Focus on your child's progress rather than comparing with others.",
+      "item2": "Set small goals and give appropriate rewards and praise when achieved.",
+      "item3": "Make math fun through games, stories, and other engaging activities."
+    },
+    "ageAppropriate": {
+      "title": "Age-Appropriate Suggestions",
+      "item1": "Preschool (4-6): Focus on addition and subtraction within 1-10 to build number sense.",
+      "item2": "Lower grades (1-3): Master addition and subtraction within 20, begin learning multiplication tables.",
+      "item3": "Upper grades (4-6): Consolidate four operations, start exploring fractions and decimals."
+    },
+    "dailyLife": {
+      "title": "Math in Daily Life",
+      "item1": "Let your child calculate prices and change while shopping to practice real-world math.",
+      "item2": "Involve your child in measuring ingredients while cooking to understand fractions and ratios.",
+      "item3": "Have your child read signs and calculate distances during outings to develop number sense."
+    }
   }
 }

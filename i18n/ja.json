@@ -102,6 +102,134 @@
     "tips": "学習のコツ",
     "privacy": "プライバシーポリシー",
     "mainSite": "開発者ホームページ",
-    "copyright": "© 2025 算数練習. All rights reserved."
+    "copyright": "© 2025 算数練習. All rights reserved.",
+    "multiplicationTable": "九九の表",
+    "formulas": "数学公式",
+    "daily": "毎日の問題",
+    "glossary": "数学术語",
+    "printable": "印刷練習",
+    "guide": "親のガイド"
+  },
+  "multiplicationTable": {
+    "title": "九九の表",
+    "description": "インタラクティブな九九の表。ホバーで行と列をハイライトし、九九の暗記を助けます。",
+    "intro": "セルにホバーすると対応する行と列がハイライトされ、掛け算の関係を簡単に確認できます。"
+  },
+  "formulas": {
+    "title": "数学公式集",
+    "description": "四則演算の法則や比較の性質など、小学生向けのよく使う数学公式を整理しました。",
+    "intro": "小学生のによく使われる数学公式と演算法則をまとめました。",
+    "additionSubtraction": "足し算と引き算",
+    "multiplicationDivision": "掛け算と割り算",
+    "comparison": "比較",
+    "commutative": "加法の交換法則",
+    "associativeAdd": "加法の結合法則",
+    "identityAdd": "加法の単位元",
+    "subtractionDef": "引き算の定義",
+    "identitySub": "引き算の単位元",
+    "selfSub": "自己減算",
+    "commutativeMul": "乗法の交換法則",
+    "associativeMul": "乗法の結合法則",
+    "distributive": "分配法則",
+    "identityMul": "乗法の単位元",
+    "zeroMul": "ゼロとの乗算",
+    "divisionDef": "割り算の定義",
+    "reflexive": "反射律",
+    "symmetric": "対称律",
+    "transitive": "推移律",
+    "additionInequality": "不等式の加法",
+    "example": "例"
+  },
+  "daily": {
+    "title": "毎日の問題",
+    "description": "毎日一つの算数チャレンジ問題で暗算力を鍛えましょう。毎日違う問題が出題されます！",
+    "showHint": "ヒント",
+    "tryAgain": "もう一度",
+    "hintAdd": "数を10の位と1の位に分けて、それぞれ足してから合計してみましょう。",
+    "hintSub": "まず10の位を引いて、次に1の位を引いてみましょう。",
+    "hintMul": "掛け算は足し算の繰り返しです。片方の数を分けて計算してみましょう。",
+    "hintDiv": "割り算は掛け算の逆です。何掛ける除数が被除数になるか考えてみましょう。"
+  },
+  "glossary": {
+    "title": "数学术語集",
+    "description": "小学生向けの数学术語とその定義をまとめました。数学の語彙理解を助けます。",
+    "intro": "小学校でよく使われる数学术語を収録しています。検索で素早く用語を見つけることができます。",
+    "searchPlaceholder": "数学术語を検索...",
+    "noResults": "一致する用語が見つかりません",
+    "terms": {
+      "addend": { "term": "被加数（Addend）", "definition": "足し算で足される数。例えば 3 + 5 = 8 の場合、3と5は被加数です。" },
+      "difference": { "term": "差（Difference）", "definition": "引き算の結果。例えば 8 - 3 = 5 の場合、5は差です。" },
+      "dividend": { "term": "被除数（Dividend）", "definition": "割り算で割られる数。例えば 12 ÷ 3 = 4 の場合、12は被除数です。" },
+      "divisor": { "term": "除数（Divisor）", "definition": "割り算で割る数。例えば 12 ÷ 3 = 4 の場合、3は除数です。" },
+      "equal": { "term": "等号（=）", "definition": "2つの値が等しいことを示す記号。" },
+      "equation": { "term": "等式（Equation）", "definition": "等号を含む数式で、両辺の値が等しいことを示す。例：2 + 3 = 5。" },
+      "factor": { "term": "因数（Factor）", "definition": "掛け算で掛けられる数。例えば 3 × 4 = 12 の場合、3と4は因数です。" },
+      "greaterThan": { "term": "大なり（>）", "definition": "左の数が右の数より大きいことを示す。例：5 > 3。" },
+      "lessThan": { "term": "小なり（<）", "definition": "左の数が右の数より小さいことを示す。例：3 < 5。" },
+      "minuend": { "term": "被減数（Minuend）", "definition": "引き算で引かれる数。例えば 8 - 3 = 5 の場合、8は被減数です。" },
+      "multiplicand": { "term": "被乗数（Multiplicand）", "definition": "掛け算で掛けられる数。例えば 3 × 4 = 12 の場合、3は被乗数です。" },
+      "multiplier": { "term": "乗数（Multiplier）", "definition": "掛け算で掛ける数。例えば 3 × 4 = 12 の場合、4は乗数です。" },
+      "numberLine": { "term": "数直線（Number Line）", "definition": "数がマークされた直線で、数の大きさと順序を表す。" },
+      "product": { "term": "積（Product）", "definition": "掛け算の結果。例えば 3 × 4 = 12 の場合、12は積です。" },
+      "quotient": { "term": "商（Quotient）", "definition": "割り算の結果。例えば 12 ÷ 3 = 4 の場合、4は商です。" },
+      "remainder": { "term": "余り（Remainder）", "definition": "割り切れない場合に残る数。例：10 ÷ 3 = 3 余り 1。" },
+      "subtrahend": { "term": "減数（Subtrahend）", "definition": "引き算で引く数。例えば 8 - 3 = 5 の場合、3は減数です。" },
+      "sum": { "term": "和（Sum）", "definition": "足し算の結果。例えば 3 + 5 = 8 の場合、8は和です。" }
+    }
+  },
+  "printable": {
+    "title": "印刷練習問題",
+    "description": "数値範囲、演算タイプ、問題数をカスタマイズして印刷可能な算数練習問題を生成。",
+    "intro": "練習パラメータを設定して、印刷用の練習問題を生成します。",
+    "problemCount": "問題数",
+    "columns": "列数",
+    "generate": "問題を生成",
+    "worksheetTitle": "算数練習問題",
+    "name": "名前",
+    "date": "日付",
+    "score": "得点",
+    "print": "印刷"
+  },
+  "guide": {
+    "title": "親のガイド",
+    "description": "お子様の算数学習を効果的にサポートするためのアドバイス。",
+    "intro": "算数学習は学校だけのものではありません。親の関わりと指導も equally 重要です。以下はお子様をサポートするためのヒントです。",
+    "creatingEnvironment": {
+      "title": "学習環境の整備",
+      "item1": "お子様に静かで整頓された学習スペースを準備し、 distractions を減らしましょう。",
+      "item2": "家に算数関連の書籍やカードを置き、 easy access にしましょう。",
+      "item3": "前向きな姿勢を保ち、お子様の前で算数に対する anxiety を見せないようにしましょう。"
+    },
+    "effectivePractice": {
+      "title": "効果的な練習方法",
+      "item1": "毎日10〜15分の練習が、たまの長時間練習より効果的です。",
+      "item2": "簡単なものから始めて、徐々に難易度を上げ、自信をつけましょう。",
+      "item3": "答えだけでなく、 thinking process を説明するよう奨励しましょう。",
+      "item4": "毎日の問題機能を使って、 daily practice habit を育てましょう。"
+    },
+    "handlingMistakes": {
+      "title": "ミスへの対処",
+      "item1": "ミスは learning の一部です。間違えたことをお子様を scold しないでください。",
+      "item2": "なぜ間違えたかを分析し、 learn from it するよう導きましょう。",
+      "item3": "間違え帳機能を使って、 challenging problems を定期的に復習しましょう。"
+    },
+    "motivation": {
+      "title": "動機付けと励まし",
+      "item1": "他の子と comparison するのではなく、お子様の progress に焦点を当てましょう。",
+      "item2": "small goals を設定し、達成したら appropriate rewards と褒め言葉を与えましょう。",
+      "item3": "ゲームや stories など、 engaging activities で算数を楽しくしましょう。"
+    },
+    "ageAppropriate": {
+      "title": "年齢に適した提案",
+      "item1": "就学前（4〜6歳）：1〜10の足し算と引き算に焦点を当て、数感覚を養いましょう。",
+      "item2": "低学年（1〜3年生）：20以内の足し算と引き算をマスターし、九九を始めましょう。",
+      "item3": "高学年（4〜6年生）：四則演算を固め、分数と小数に触れるようにしましょう。"
+    },
+    "dailyLife": {
+      "title": "日常生活の算数",
+      "item1": "買い物でお子様に price calculation とお釣りの計算をさせ、 real-world math を練習させましょう。",
+      "item2": "料理で食材の measuring を手伝わせ、分数と比率を理解させましょう。",
+      "item3": "外出時にお子様に看板を読んだり distance を計算させ、数感覚を養いましょう。"
+    }
   }
 }

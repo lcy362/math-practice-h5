@@ -102,6 +102,134 @@
     "tips": "학습 팁",
     "privacy": "개인정보 처리방침",
     "mainSite": "개발자 홈페이지",
-    "copyright": "© 2025 수학 연습. All rights reserved."
+    "copyright": "© 2025 수학 연습. All rights reserved.",
+    "multiplicationTable": "구구단",
+    "formulas": "수학 공식",
+    "daily": "매일 문제",
+    "glossary": "수학 용어",
+    "printable": "인쇄 연습",
+    "guide": "학부모 가이드"
+  },
+  "multiplicationTable": {
+    "title": "구구단표",
+    "description": "인터랙티브 구구단표. 호버로 행과 열을 하이라이트하여 구구단 암기를 도와줍니다.",
+    "intro": "셀에 호버하면 해당 행과 열이 하이라이트되어 곱셈 관계를 쉽게 확인할 수 있습니다."
+  },
+  "formulas": {
+    "title": "수학 공식집",
+    "description": "사칙연산 법칙과 비교 성질 등 초등학생을 위한 수학 공식을 정리했습니다.",
+    "intro": "초등학교에서 자주 사용하는 수학 공식과 연산 법칙을 모았습니다.",
+    "additionSubtraction": "덧셈과 뺄셈",
+    "multiplicationDivision": "곱셈과 나눗셈",
+    "comparison": "비교",
+    "commutative": "덧셈 교환법칙",
+    "associativeAdd": "덧셈 결합법칙",
+    "identityAdd": "덧셈 항등원",
+    "subtractionDef": "뺄셈의 정의",
+    "identitySub": "뺄셈 항등원",
+    "selfSub": "자기 뺄셈",
+    "commutativeMul": "곱셈 교환법칙",
+    "associativeMul": "곱셈 결합법칙",
+    "distributive": "분배법칙",
+    "identityMul": "곱셈 항등원",
+    "zeroMul": "0과의 곱셈",
+    "divisionDef": "나눗셈의 정의",
+    "reflexive": "반사성",
+    "symmetric": "대칭성",
+    "transitive": "추이성",
+    "additionInequality": "부등식의 덧셈",
+    "example": "예"
+  },
+  "daily": {
+    "title": "매일 문제",
+    "description": "매일 하나의 수학 챌린지 문제로 암산 능력을 향상시키세요. 매일 다른 문제가 출제됩니다!",
+    "showHint": "힌트",
+    "tryAgain": "다시 시도",
+    "hintAdd": "숫자를 십의 자리와 일의 자리로 나누어 각각 더한 후 합쳐보세요.",
+    "hintSub": "먼저 십의 자리를 빼고, 일의 자리를 빼보세요.",
+    "hintMul": "곱셈은 반복 덧셈입니다. 한 숫자를 나누어 계산해보세요.",
+    "hintDiv": "나눗셈은 곱셈의 역연산입니다. 어떤 수에 나누는 수를 곱하면 나눠지는 수가 되는지 생각해보세요."
+  },
+  "glossary": {
+    "title": "수학 용어집",
+    "description": "초등학생을 위한 수학 용어와 정의를 모았습니다. 수학 어휘 이해를 돕습니다.",
+    "intro": "초등학교에서 자주 사용하는 수학 용어를 수록했습니다. 검색으로 빠르게 찾을 수 있습니다.",
+    "searchPlaceholder": "수학 용어 검색...",
+    "noResults": "일치하는 용어가 없습니다",
+    "terms": {
+      "addend": { "term": "피가수 (Addend)", "definition": "덧셈에서 더해지는 수. 예: 3 + 5 = 8에서 3과 5는 피가수입니다." },
+      "difference": { "term": "차 (Difference)", "definition": "뺄셈의 결과. 예: 8 - 3 = 5에서 5는 차입니다." },
+      "dividend": { "term": "피제수 (Dividend)", "definition": "나눗셈에서 나눠지는 수. 예: 12 ÷ 3 = 4에서 12는 피제수입니다." },
+      "divisor": { "term": "제수 (Divisor)", "definition": "나눗셈에서 나누는 수. 예: 12 ÷ 3 = 4에서 3은 제수입니다." },
+      "equal": { "term": "등호 (=)", "definition": "두 값이 같음을 나타내는 기호." },
+      "equation": { "term": "등식 (Equation)", "definition": "등호를 포함한 수식으로, 양변의 값이 같음을 나타냄. 예: 2 + 3 = 5." },
+      "factor": { "term": "인수 (Factor)", "definition": "곱셈에서 곱해지는 수. 예: 3 × 4 = 12에서 3과 4는 인수입니다." },
+      "greaterThan": { "term": "큼 (>)", "definition": "왼쪽 수가 오른쪽 수보다 큼을 나타냄. 예: 5 > 3." },
+      "lessThan": { "term": "작음 (<)", "definition": "왼쪽 수가 오른쪽 수보다 작음을 나타냄. 예: 3 < 5." },
+      "minuend": { "term": "피감수 (Minuend)", "definition": "뺄셈에서 빼지는 수. 예: 8 - 3 = 5에서 8은 피감수입니다." },
+      "multiplicand": { "term": "피승수 (Multiplicand)", "definition": "곱셈에서 곱해지는 수. 예: 3 × 4 = 12에서 3은 피승수입니다." },
+      "multiplier": { "term": "승수 (Multiplier)", "definition": "곱셈에서 곱하는 수. 예: 3 × 4 = 12에서 4는 승수입니다." },
+      "numberLine": { "term": "수직선 (Number Line)", "definition": "수가 표시된 직선으로, 수의 크기와 순서를 나타냄." },
+      "product": { "term": "곱 (Product)", "definition": "곱셈의 결과. 예: 3 × 4 = 12에서 12는 곱입니다." },
+      "quotient": { "term": "몫 (Quotient)", "definition": "나눗셈의 결과. 예: 12 ÷ 3 = 4에서 4는 몫입니다." },
+      "remainder": { "term": "나머지 (Remainder)", "definition": "나누어떨어지지 않을 때 남는 수. 예: 10 ÷ 3 = 3 나머지 1." },
+      "subtrahend": { "term": "감수 (Subtrahend)", "definition": "뺄셈에서 빼는 수. 예: 8 - 3 = 5에서 3은 감수입니다." },
+      "sum": { "term": "합 (Sum)", "definition": "덧셈의 결과. 예: 3 + 5 = 8에서 8은 합입니다." }
+    }
+  },
+  "printable": {
+    "title": "인쇄 연습 문제",
+    "description": "숫자 범위, 연산 유형, 문제 수를 커스터마이징하여 인쇄 가능한 수학 연습 문제 생성.",
+    "intro": "연습 매개변수를 설정하고 인쇄용 연습 문제를 생성합니다.",
+    "problemCount": "문제 수",
+    "columns": "열 수",
+    "generate": "문제 생성",
+    "worksheetTitle": "수학 연습 문제",
+    "name": "이름",
+    "date": "날짜",
+    "score": "점수",
+    "print": "인쇄"
+  },
+  "guide": {
+    "title": "학부모 가이드",
+    "description": "아이들의 수학 학습을 효과적으로 돕기 위한 학부모를 위한 조언.",
+    "intro": "수학 학습은 학교만의 일이 아닙니다. 부모의 관심과 지도 equally 중요합니다. 다음은 아이를 돕기 위한 팁입니다.",
+    "creatingEnvironment": {
+      "title": "학습 환경 조성",
+      "item1": "아이를 위해 조용하고 정리된 학습 공간을 준비하고 distractions을 줄이세요.",
+      "item2": "집에 수학 관련 책과 카드를 두어 easy access 하게 하세요.",
+      "item3": "긍정적인 태도를 유지하고 아이 앞에서 수학에 대한 anxiety을 보이지 마세요."
+    },
+    "effectivePractice": {
+      "title": "효과적인 연습 방법",
+      "item1": "매일 10~15분 연습이 가끔 하는 장시간 연습보다 효과적입니다.",
+      "item2": "简单的 것부터 시작하여 점차 난이도를 높이고 자신감을 키우세요.",
+      "item3": "답뿐만 아니라 thinking process를 설명하도록 격려하세요.",
+      "item4": "매일 문제 기능을 사용하여 daily practice habit을 기르세요."
+    },
+    "handlingMistakes": {
+      "title": "실수 다루기",
+      "item1": "실수는 learning의 일부입니다. 틀렸다고 아이를 scold하지 마세요.",
+      "item2": "왜 틀렸는지 분석하고 learn from it하도록引导하세요.",
+      "item3": "오답노트 기능을 사용하여 challenging problems를定期 복습하세요."
+    },
+    "motivation": {
+      "title": "동기부여와 격려",
+      "item1": "다른 아이와 comparison하기보다 아이의 progress에 초점을 맞추세요.",
+      "item2": "small goals을 설정하고 달성 시 appropriate rewards와 칭찬을 주세요.",
+      "item3": "게임이나 stories 등 engaging activities로 수학을 재미있게 만드세요."
+    },
+    "ageAppropriate": {
+      "title": "연령별 제안",
+      "item1": "취학 전(4~6세): 1~10 덧셈과 뺄셈에 집중하여 수 감각을 기르세요.",
+      "item2": "저학년(1~3학년): 20 이내 덧셈과 뺄셈을 마스터하고 구구단을 시작하세요.",
+      "item3": "고학년(4~6학년): 사칙연산을巩固하고 분수와 소수를接触하세요."
+    },
+    "dailyLife": {
+      "title": "일상생활의 수학",
+      "item1": "쇼핑时 아이에게 price calculation과 거스름돈 계산을 시켜 real-world math를 연습시키세요.",
+      "item2": "요리时 재료 measuring을 도와주어 분수와 비율을 이해시키세요.",
+      "item3": "외출时 아이에게 간판을 읽게 하고 distance를 계산시켜 수 감각을 기르세요."
+    }
   }
 }

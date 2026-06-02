@@ -102,6 +102,134 @@
     "tips": "学习技巧",
     "privacy": "隐私政策",
     "mainSite": "开发者主页",
-    "copyright": "© 2025 极简算数练习. All rights reserved."
+    "copyright": "© 2025 极简算数练习. All rights reserved.",
+    "multiplicationTable": "乘法口诀表",
+    "formulas": "数学公式",
+    "daily": "每日一题",
+    "glossary": "数学词汇",
+    "printable": "打印练习",
+    "guide": "家长指南"
+  },
+  "multiplicationTable": {
+    "title": "九九乘法表",
+    "description": "交互式九九乘法表，鼠标悬停高亮行列，帮助孩子快速记忆乘法口诀。",
+    "intro": "将鼠标悬停在单元格上，可以高亮对应的行和列，方便查看乘法关系。"
+  },
+  "formulas": {
+    "title": "数学公式汇总",
+    "description": "小学常用数学公式整理，包括加减乘除运算法则、比较大小规则等。",
+    "intro": "整理了小学阶段常用的数学公式和运算法则，帮助孩子理解和记忆。",
+    "additionSubtraction": "加法与减法",
+    "multiplicationDivision": "乘法与除法",
+    "comparison": "比较大小",
+    "commutative": "加法交换律",
+    "associativeAdd": "加法结合律",
+    "identityAdd": "加法恒等律",
+    "subtractionDef": "减法定义",
+    "identitySub": "减法恒等律",
+    "selfSub": "自减为零",
+    "commutativeMul": "乘法交换律",
+    "associativeMul": "乘法结合律",
+    "distributive": "乘法分配律",
+    "identityMul": "乘法恒等律",
+    "zeroMul": "乘零为零",
+    "divisionDef": "除法定义",
+    "reflexive": "自反性",
+    "symmetric": "对称性",
+    "transitive": "传递性",
+    "additionInequality": "不等式加法",
+    "example": "例如"
+  },
+  "daily": {
+    "title": "每日一题",
+    "description": "每天一道数学挑战题，坚持练习提升心算能力。每天的题目都不同，快来挑战吧！",
+    "showHint": "提示",
+    "tryAgain": "再试一次",
+    "hintAdd": "试试将两个数拆分成整十数和个位数，分别相加后再合并。",
+    "hintSub": "可以先减去整十数，再减去个位数。",
+    "hintMul": "乘法是重复加法，试试把其中一个数拆分计算。",
+    "hintDiv": "除法是乘法的逆运算，想想哪个数乘以除数等于被除数。"
+  },
+  "glossary": {
+    "title": "数学词汇表",
+    "description": "小学数学术语中英文对照解释，帮助孩子理解数学术语的含义。",
+    "intro": "收录了小学阶段常用的数学术语，点击搜索可以快速查找。",
+    "searchPlaceholder": "搜索数学术语...",
+    "noResults": "没有找到匹配的术语",
+    "terms": {
+      "addend": { "term": "加数 (Addend)", "definition": "加法运算中的数字。例如 3 + 5 = 8 中，3 和 5 都是加数。" },
+      "difference": { "term": "差 (Difference)", "definition": "减法运算的结果。例如 8 - 3 = 5 中，5 是差。" },
+      "dividend": { "term": "被除数 (Dividend)", "definition": "除法运算中被除的数字。例如 12 ÷ 3 = 4 中，12 是被除数。" },
+      "divisor": { "term": "除数 (Divisor)", "definition": "除法运算中用来除的数字。例如 12 ÷ 3 = 4 中，3 是除数。" },
+      "equal": { "term": "等号 (=)", "definition": "表示两个数值相等的符号。" },
+      "equation": { "term": "等式 (Equation)", "definition": "含有等号的数学表达式，表示两边的值相等。例如 2 + 3 = 5。" },
+      "factor": { "term": "因数 (Factor)", "definition": "乘法运算中的数字。例如 3 × 4 = 12 中，3 和 4 都是因数。" },
+      "greaterThan": { "term": "大于 (>)", "definition": "表示左边的数比右边的数大。例如 5 > 3。" },
+      "lessThan": { "term": "小于 (<)", "definition": "表示左边的数比右边的数小。例如 3 < 5。" },
+      "minuend": { "term": "被减数 (Minuend)", "definition": "减法运算中被减的数字。例如 8 - 3 = 5 中，8 是被减数。" },
+      "multiplicand": { "term": "被乘数 (Multiplicand)", "definition": "乘法运算中被乘的数字。例如 3 × 4 = 12 中，3 是被乘数。" },
+      "multiplier": { "term": "乘数 (Multiplier)", "definition": "乘法运算中用来乘的数字。例如 3 × 4 = 12 中，4 是乘数。" },
+      "numberLine": { "term": "数轴 (Number Line)", "definition": "一条直线上标有数字的线，用来表示数的大小和顺序。" },
+      "product": { "term": "积 (Product)", "definition": "乘法运算的结果。例如 3 × 4 = 12 中，12 是积。" },
+      "quotient": { "term": "商 (Quotient)", "definition": "除法运算的结果。例如 12 ÷ 3 = 4 中，4 是商。" },
+      "remainder": { "term": "余数 (Remainder)", "definition": "除法运算中不能整除时剩下的数。例如 10 ÷ 3 = 3 余 1。" },
+      "subtrahend": { "term": "减数 (Subtrahend)", "definition": "减法运算中用来减的数字。例如 8 - 3 = 5 中，3 是减数。" },
+      "sum": { "term": "和 (Sum)", "definition": "加法运算的结果。例如 3 + 5 = 8 中，8 是和。" }
+    }
+  },
+  "printable": {
+    "title": "打印练习题",
+    "description": "生成可打印的数学练习题，自定义数字范围、运算类型和题目数量。",
+    "intro": "配置练习参数后生成练习题，可以直接打印使用。",
+    "problemCount": "题目数量",
+    "columns": "每行列数",
+    "generate": "生成练习题",
+    "worksheetTitle": "数学练习题",
+    "name": "姓名",
+    "date": "日期",
+    "score": "得分",
+    "print": "打印"
+  },
+  "guide": {
+    "title": "家长辅导指南",
+    "description": "给家长的数学辅导建议，帮助您更好地陪伴孩子学习数学。",
+    "intro": "数学学习不仅是学校的事，家长的陪伴和引导同样重要。以下建议帮助您更有效地辅导孩子。",
+    "creatingEnvironment": {
+      "title": "营造学习环境",
+      "item1": "为孩子准备一个安静、整洁的学习空间，减少干扰。",
+      "item2": "在家中放置数学相关的书籍、卡片，让孩子随时可以接触。",
+      "item3": "保持积极的态度，不要在孩子面前表现出对数学的焦虑。"
+    },
+    "effectivePractice": {
+      "title": "有效练习方法",
+      "item1": "每天坚持 10-15 分钟的练习，比偶尔长时间练习更有效。",
+      "item2": "从简单开始，逐步增加难度，让孩子有成就感。",
+      "item3": "鼓励孩子说出解题思路，而不仅仅关注答案。",
+      "item4": "使用本工具的每日一题功能，培养每日练习的习惯。"
+    },
+    "handlingMistakes": {
+      "title": "正确对待错误",
+      "item1": "错误是学习的一部分，不要因为答错而责备孩子。",
+      "item2": "引导孩子分析错误原因，从错误中学习。",
+      "item3": "使用错题本功能，定期复习容易出错的题目。"
+    },
+    "motivation": {
+      "title": "激励与鼓励",
+      "item1": "关注孩子的进步，而不是与他人比较。",
+      "item2": "设置小目标，达成后给予适当的奖励和表扬。",
+      "item3": "让数学变得有趣，可以通过游戏、故事等方式激发兴趣。"
+    },
+    "ageAppropriate": {
+      "title": "年龄适配建议",
+      "item1": "学前儿童（4-6岁）：重点练习 1-10 的加减法，建立数感。",
+      "item2": "低年级（1-3年级）：熟练掌握 20 以内加减法，开始学习乘法口诀。",
+      "item3": "高年级（4-6年级）：巩固四则运算，开始接触分数和小数。"
+    },
+    "dailyLife": {
+      "title": "生活中的数学",
+      "item1": "购物时让孩子计算价格、找零，实践数学应用。",
+      "item2": "做饭时让孩子帮忙量取食材，理解分数和比例。",
+      "item3": "出行时让孩子看路牌、计算距离，培养数感。"
+    }
   }
 }
