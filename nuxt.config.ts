@@ -43,7 +43,7 @@ export default defineNuxtConfig({
 
   // Google Analytics 4
   gtag: {
-    id: 'G-XXXXXXXXXX', // TODO: replace with real GA4 Measurement ID
+    id: 'G-0KRFETF1TT',
   },
 
   // Robots
