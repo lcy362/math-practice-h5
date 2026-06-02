@@ -90,6 +90,15 @@ function startPractice() {
       <p class="subtitle">{{ t('home.subtitle') }}</p>
     </section>
 
+    <NuxtLink :to="localePath('/daily')" class="daily-banner">
+      <span class="daily-icon">🎯</span>
+      <div class="daily-text">
+        <span class="daily-title">{{ t('daily.title') }}</span>
+        <span class="daily-desc">{{ t('daily.description').split('。')[0] }}</span>
+      </div>
+      <span class="daily-arrow">→</span>
+    </NuxtLink>
+
     <section class="config-card">
       <div class="field">
         <label class="field-label">{{ t('home.numberRange') }}</label>
@@ -167,6 +176,55 @@ function startPractice() {
   color: #666;
   font-size: 15px;
   margin: 0;
+}
+
+.daily-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #fff8e1, #fff3cd);
+  border: 2px solid #ffc107;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(255, 193, 7, 0.3);
+  }
+}
+
+.daily-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.daily-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.daily-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #333;
+}
+
+.daily-desc {
+  font-size: 13px;
+  color: #666;
+}
+
+.daily-arrow {
+  font-size: 20px;
+  color: #ffc107;
+  font-weight: 700;
+  flex-shrink: 0;
 }
 
 .config-card {
