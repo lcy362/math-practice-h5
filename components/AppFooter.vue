@@ -7,9 +7,15 @@ const localePath = useLocalePath()
   <footer class="app-footer">
     <div class="footer-inner">
       <nav class="footer-links">
-        <NuxtLink :to="localePath('/')">{{ t('footer.about') }}</NuxtLink>
+        <NuxtLink :to="localePath('/about')">{{ t('footer.about') }}</NuxtLink>
         <span class="sep">·</span>
-        <NuxtLink :to="localePath('/')">{{ t('footer.privacy') }}</NuxtLink>
+        <NuxtLink :to="localePath('/faq')">{{ t('footer.faq') }}</NuxtLink>
+        <span class="sep">·</span>
+        <NuxtLink :to="localePath('/tips')">{{ t('footer.tips') }}</NuxtLink>
+        <span class="sep">·</span>
+        <NuxtLink :to="localePath('/privacy')">{{ t('footer.privacy') }}</NuxtLink>
+        <span class="sep">·</span>
+        <a href="https://lichuanyang.top/" target="_blank" rel="noopener">{{ t('footer.mainSite') }}</a>
       </nav>
       <p class="copyright">{{ t('footer.copyright') }}</p>
     </div>

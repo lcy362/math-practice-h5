@@ -140,6 +140,13 @@ function startPractice() {
         {{ t('home.startPractice') }}
       </button>
     </section>
+
+    <section class="author-section">
+      <p>{{ t('about.authorDesc') }}</p>
+      <a href="https://lichuanyang.top/" target="_blank" rel="noopener" class="author-link">
+        {{ t('about.authorSite') }} →
+      </a>
+    </section>
   </div>
 </template>
 
@@ -282,6 +289,27 @@ function startPractice() {
 
   &:active {
     transform: translateY(0);
+  }
+}
+
+.author-section {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+
+  p {
+    margin: 0 0 6px;
+  }
+}
+
+.author-link {
+  color: #4a90e2;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
   }
 }
 </style>
